@@ -8,15 +8,11 @@
 body {
     background: #323232;
     font: 600 18px Nunito, sans-serif;
-}
-
-.global {
-    background: #6931ca;
     display: block;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    max-width: 1440px;
+    max-width: 1920px;
+    max-height: 1080px;
     margin: 0 auto;
     padding: 16px 8px;
     box-shadow: 0px 0px 100px #000;
@@ -43,57 +39,46 @@ header {
     margin-left: 10px;
     display: flex;
     align-items: center;
-    justify-content: center;
     box-shadow: 0px 0px 100px #000;
-
+    justify-content: left;
+    padding-left: 80px;
 }
 
 .logo {
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 
-.nav-menu {
-    display: flex;
+.nav-list {
+    display: inline-flex;
+    list-style: none;
+    text-decoration: none;
     justify-content: center;
-    align-items: center;
-    
-
+    color: #000;
 }
 
 .nav-link {
-    text-decoration: none;
-    list-style: none;
-    display: inline-block;
-    justify-content: center;
     padding: 15px;
     letter-spacing: 1px;
     line-height: 140%;
     font-size: 20px;
-    color: grey;
-    opacity: 0.3;
-    list-style: none;
+    color: black;
 }
 
 .nav-link:hover {
     color: #ff4e00;
 }
 
-.container {
-    display: block;
-    align-items: center;
-    justify-content: center;
-}
 .profile {
     display: block;
     width: 100%;
     text-align: center;
 }
+
 p {
     display: block;
-    width: 100%;
+    width: auto;
     text-align: center;
     font-size: 20px;
     padding-top: 20px;
@@ -113,4 +98,12 @@ p {
     max-width: 1440px;
     margin: 0 auto;
     padding: 36px 16px;
+}
+
+footer {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    margin-top: 200px;
+    color: #ff4e00;
 }
