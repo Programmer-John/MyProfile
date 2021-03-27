@@ -48,39 +48,51 @@ header {
     justify-content: center;
 }
 
-.nav-link  a{
-    padding: 15px;
-    letter-spacing: 1px;
-    line-height: 140%;
-    font-size: 20px;
-    text-decoration: none;
-    color: #000;
-    font-size: 18px;
-}
-
-.nav-link a:hover {
-    color: #ff4e00;
-}
-
 .nav-list {
     display: inline-flex;
     list-style: none;
     justify-content: center;
 }
 
+.nav-link  a{
+    padding: 15px;
+    letter-spacing: 1px;
+    line-height: 140%;
+    text-decoration: none;
+    color: #000;
+    font-size: 22px;
+}
+
+.nav-link a:hover {
+    color: #ff4e00;
+}
+
+
 .nav-social{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 650px;
+    margin-left: 630px;
 }
 
 .nav-social li {
     list-style: none;
     display: inline-block;
-    padding-right: 20px;
-
+    justify-content: center;
+    align-items: center;
+    padding-right: 25px;
+    cursor: pointer;
 }
+
+.name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: #000;
+    font-size: 45px;
+}
+
 .profile {
     display: block;
     width: 100%;
@@ -105,10 +117,19 @@ p {
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 100vh;
+    height: auto;
     max-width: 1440px;
     margin: 0 auto;
-    padding: 36px 16px;
+    padding: 0px 16px;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    color: #000;
+    font-size: 45px;
 }
 
 .programming-languages {
@@ -129,6 +150,7 @@ footer {
     display: flex;
     font-size: 20px;
     justify-content: center;
+    align-items: center;
     margin-top: 100px;
     color: #ff4e00;
 }
