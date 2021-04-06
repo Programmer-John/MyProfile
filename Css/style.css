@@ -150,7 +150,6 @@ header {
 /* ====== CARDS ======== */
 
 .card-container {
-    /*border: 1px solid green;*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -158,7 +157,6 @@ header {
     padding-left: 0px;
     margin-top: 30px;
 }
-
 .card {
     border: 1px solid grey;
     display: block;
@@ -182,36 +180,29 @@ header {
 }
 
 
-/* ===== FOOTER ======== */
-footer {
-    display: flex;
-    font-size: 20px;
-    justify-content: center;
-    align-items: center;
-    margin-top: 100px;
-    color: #ff4e00;
-}
-
-
 /* ===== ABOUT ME ======== */
+
 .main-geral {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 60px;
 }
 
 .main {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 1300px;
+    height: max-content;
 }
 .aside {
     display: block;
     margin-left: 30px;
-    margin-top: 0px;
+    margin-top: -10px;
     font-weight: 400;
     font-size: 20px;
+    width: 600px;
 
 }
 
@@ -228,37 +219,53 @@ footer {
     margin-bottom: 20px;
 }
 
+.list-geral {
+    display: flex;
+}
+
+.main-questions {
+    display: block;
+    width: 150px;
+}
+
 .list-questions {
     display: block;
     list-style: none;
+    padding-bottom: 10px;
+}
+
+.main-answers {
+    display: flex;
+    width: 350px;
+}
+
+.list-answers {
+    display: block;
+    list-style: none;
+    padding-bottom: 10px;
 }
 
 b {
     color: #c0c0c0;
 }
 
-.main-answers {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: auto;
-    height: auto;
-    position: absolute;
-    right: 410px;
-    top: 410px;
-}
-
-.list-answers {
-    display: block;
-    list-style: none;
-}
-
 button {
+    position: relative;
     margin-top: 20px;
     padding: 10px;
-    width: 150px;
+    width: auto;
     cursor: pointer;
+    background: #037fff;
+    color: #fff;
+    border: 0;
+    display: inline-block;
+    z-index: 1;
+    text-transform: uppercase;
+    font-size: .9rem;
+    letter-spacing: 2px;
+    border-radius: 20px;
 }
+
 
 /* ======= ROOT DE CORES ===== */
 
@@ -284,3 +291,15 @@ button {
     --light: #f8f9fa;
     --dark: #343a40;
 */
+
+/* ===== FOOTER ======== */
+
+footer {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    color: #ff4e00;
+}
+
