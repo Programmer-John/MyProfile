@@ -18,6 +18,9 @@ body {
     max-height: 1080px;
     margin: 0 auto;
     padding: 16px 8px;
+    /*background-image: url("/Images/CZO.jpeg");
+    background-repeat: no-repeat;
+    background-size: 1560px 830px;*/ /* ATIVAR DEPOIS */
 }
 
 header {
@@ -288,7 +291,7 @@ button {
 
 .main-contact {
     border: 1px solid grey;
-    display: flex;
+    display: block;
     justify-content: center;
     align-items: center;
     width: 510px;
@@ -299,16 +302,38 @@ button {
 
 }
 
-.card-contact {
-    border: 1px solid yellow;
+.icon {
     display: block;
-    text-align: justify;
-    width: 250px;
-    height: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
 }
 
-h4 {
+.card-contact {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.title-contact {
+    display: block;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 10px;
+    text-align: center;
+}
+
+.text-contact {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 5px;
 }
 
 /*======================== ROOT DE CORES ========================*/
@@ -346,4 +371,3 @@ footer {
     margin-top: 100px;
     color: #ff4e00;
 }
-
