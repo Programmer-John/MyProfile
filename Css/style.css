@@ -80,7 +80,7 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-left: 630px;
+    margin-left: 650px;
 }
 
 .nav-social li {
@@ -371,3 +371,5 @@ footer {
     margin-top: 100px;
     color: #ff4e00;
 }
+
+/*======================== RESPONSIVENESS ========================*/
