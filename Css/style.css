@@ -200,6 +200,9 @@ header {
     margin-bottom: 20px;
 }
 
+.card-text {
+    text-align: center;
+}
 
 /*======================== PART ABOUT ME ========================*/
 
@@ -372,16 +375,16 @@ button {
 
 /*======================== GENERAL FOOTER ========================*/
 
-/*footer {
+footer {
     display: flex;
     font-size: 20px;
     justify-content: center;
     align-items: center;
     margin-top: 100px;
     color: #ff4e00;
-}*/
+}
 
-footer {
+/* footer {
     position: absolute;
     font-size: 18spx;
     bottom: 0;
@@ -390,6 +393,6 @@ footer {
     text-align: center;
     width: 90%;
     color: #000;
-}
+} */
 
 /*======================== RESPONSIVENESS ========================*/
